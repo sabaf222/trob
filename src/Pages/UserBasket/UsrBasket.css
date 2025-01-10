@@ -1,0 +1,210 @@
+.basket{
+    fill: var(--red-color);
+    width: 7rem;
+    height: 7rem;
+
+}
+.basket-wrapper{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 3rem 0;
+}
+.basket-wrapper div{
+    color: var(--red-color);
+    margin-top: 1rem;
+    font-size: 1.2rem;
+}
+.basket-container{
+    display: grid;
+    padding: 1rem;
+  
+}
+.basket-top{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+
+    justify-content: space-between;
+    align-items: center;
+
+}
+.basket-right{
+    border: 1px solid rgb(251 146 60 );
+    display: flex ;
+    justify-content: flex-start;
+    align-items: center;
+    padding: .5rem 1rem;
+
+    border-radius: 5px;
+    color:#fb923c;
+    background-color:#fff7ed ;
+}
+.basket-right div span{
+    margin-right: 5px;
+}
+.basket-right div .icon{
+ font-size: 1.3rem;
+}
+.basket-left {
+    display: flex;
+    justify-content: center;
+
+}
+.basket-left .link{
+    color: var(--red-color);
+   font-size: 1.2rem;
+   font-weight: 500;
+
+}
+.basket-left .link:hover{
+    opacity: .7;
+}
+
+.basket-bot{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    margin: 2rem 0;
+}
+.basket-bot-right{
+    border: 1px solid #EEE;
+    border-radius: 10px;
+    padding:0 3rem;
+    background-color: #fff!important;
+    margin-bottom: 2rem;
+}
+.basket-bot-right .basket-details{
+    display: flex;
+    align-items: flex-start;
+    margin: 1rem 0;
+    flex-direction: column;
+    gap: 3rem;
+    justify-content: center;
+}
+.basket-details .basket-details-top{
+    display: flex;
+     align-items: flex-start;
+     gap:  1.5rem;
+}
+.basket-details img{
+    width: 6rem;
+    height: 6rem;
+    object-fit: cover;
+}
+.basket-details-desc{
+    line-height:2rem ;
+}
+.basket-details-title{
+    color: #a3a3a3;
+    font-weight: 500;
+    font-size: 1.1rem;
+}
+.basket-details-desc span{
+    color: #171717;
+    font-size: 1.2rem;
+}
+.basket-details-bot{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.basket-details-bot .wrraper-icons{
+    display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  border: 1px solid rgba(251, 120, 60,.5);
+  padding: .5rem ;
+  border-radius: 7px;
+}
+.basket-details-bot div button{
+    background: initial;
+  border: none;
+  font-size: 1.2rem;
+  color: var(--red-color);
+
+}
+.basket-details-bot div span{
+    font-size: 1.2rem;
+    color: var(--red-color);
+}
+.product-price {
+   
+    
+    font-size: 1rem!important;
+    color: #171717!important;
+    
+   
+}
+.product-price-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+ .offs{
+    opacity: .5!important;
+    text-decoration: line-through!important;
+}
+.product-price-wrapper .discount{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--red-color);
+    color: #fff;
+   width: 30px!important;
+   height: 30px;
+    border-radius: 50%;
+    font-size: 13px;
+   margin-right: 10px;
+   
+    
+
+
+}
+.basket-bot-left{
+    background: #fff;
+    border: 1px  solid #ddd;
+    margin: 0 2rem;
+    height: max-content;
+    padding: 2rem 1.5rem;
+    border-radius: 7px;
+    line-height: 3rem;
+}
+.basket-bot-left div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.basket-bot-left .product-basket-price{
+    color: #737373!important;
+    font-size: 1rem ;
+    font-weight: 600;
+}
+.product-basket-discount{
+    color: var(--red-color);
+    font-size: 1rem ;
+    font-weight: 600;
+    border-bottom: 1px solid #ddd;
+}
+.basket-total-price{
+    font-size: 1.1rem;
+    color: #171717;
+    font-weight: 600;
+}
+.send-user-basket{
+    background-color: var(--red-color);
+    color: #fff;
+    border: none;
+    outline: none;
+    width: 100%;
+    margin-top: 3rem;
+    border-radius: 7px;
+    font-size: 1.2rem;
+    font-weight: 500;
+    transition: all .3s;
+}
+.send-user-basket:hover{
+    opacity: .7;
+}

@@ -1,0 +1,7 @@
+.swal-button-container{
+    display: flex!important;
+    justify-content: center!important;
+}
+.product-box{
+    position: relative!important;
+}

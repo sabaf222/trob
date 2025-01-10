@@ -1,0 +1,10 @@
+.modal-img-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;width: 100%;
+
+}
+.modal-img-container img{
+    object-fit: cover;
+    height: 400px;
+}

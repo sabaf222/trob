@@ -1,0 +1,68 @@
+
+.auth{
+    background: url('../../../public/images/auth/backLog.jpg'); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: grid;
+    align-items: center;
+    height: 100vh;
+  
+  }
+  .auth__register{
+    width: 50%;
+    margin: 0 auto;
+    background-color: #fffc;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px #0000001a;
+  
+  }
+  .auth__register-top{
+   flex-grow: 1;
+   display: flex;
+   flex-direction: column;
+   text-align: center;
+   line-height: 2rem;
+  
+  }
+  .auth__register-top h2{
+    font-weight: 500;
+    color: #000;
+    text-align: center;
+    font-size: 1.3rem;
+  }
+  .auth__register-top h1{
+    font-weight: 900;
+    color: #000;
+    text-align: center;
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+  
+  }
+  .auth__register-top input{
+    background: #fff;
+      border: 1px solid #ccc;
+      padding: 3px;
+      font-size: 1.1rem;
+      font-weight: 500;
+      color: #475569;
+      text-align: center;
+      border-radius: 10px;
+      width: 100%;
+      margin-bottom: 14px;
+  }
+  .auth__register-top button{
+    padding: .5rem;
+      background: var(--red-color);
+      font-size: 1.3rem;
+      font-weight: 500;
+      color: #fff;
+      border-radius: 5px;
+     width: 10rem;
+    
+  
+  }
+  .auth__register-link{
+    color: var(--red-color);
+  }

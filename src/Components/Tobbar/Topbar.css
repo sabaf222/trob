@@ -1,0 +1,117 @@
+.navbar-logo{
+    width: 4rem;
+}
+.navbar-right{
+    display: flex;
+    align-items: center;
+    flex: 3!important;
+    justify-content: space-around;
+
+}
+.navbar-brand{
+    display: flex;
+    align-items: center;
+}
+.title{
+    color: var(--red-color);
+    font-size: 1.7rem;
+    font-weight: 900;
+    margin-right: 1rem;
+}
+.search-input{
+    display: flex;
+    align-items: center;
+    position: relative;
+    width: 25rem;
+    border: 1px solid #928f8f;
+    padding: 7px 10px;
+    border-radius: 5px;
+    font-size: 1rem;
+    box-shadow: 0 0 2px 0 var(--red-color);
+
+
+
+
+
+}
+.search-input input {
+    width: 100%;
+    text-indent: 10px;
+    border: none;
+    background-color: inherit;
+  
+}
+.search-icon{
+    font-size: 1.5rem;
+    color:#928f8f;
+}
+.navbar-link{
+    padding: .5rem .7rem;
+    border-radius: 5px;
+    border: 1px solid #bbb;
+    display: flex;
+    align-items: center;
+   column-gap: .5rem;
+    cursor: pointer;
+    box-shadow: 0 0 2px  var(--red-color);
+}
+
+.basket-icon{
+    font-size: 1.3rem;
+ 
+    fill: #475569;
+}
+.navbar-link span{
+    font-size: 1rem;
+    font-weight: 500;
+    color: #475569;
+}
+.basket-count{
+    background: var(--red-color);
+    padding: .1rem .4rem;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 15px;
+
+}
+.product-list-filter{
+    position: absolute;
+    top: 110%;
+    left: 0;
+    right: 0;
+    background: #fff;
+    box-shadow: 0 0 10px #0003;
+    border-radius: 5px;
+    z-index: 5;
+
+
+
+
+}
+.product-list-filter div{
+    padding: 1rem!important;
+    font-size: 1.1rem!important;
+}
+.product-list-filter li a{
+    font-size: 1rem;
+    font-weight: 700;
+    color: #475569!important;
+    padding: .5rem 1rem;
+    display: flex;
+    gap: .5rem;
+    opacity: .8;
+
+}
+.product-list-filter li a:hover{
+    background-color: #eee;
+    
+}
+
+.product-list-filter li a span{
+    color: var(--red-color)!important;
+}
+li a{
+   text-decoration: none;
+    transition: all .3s ease-in-out;
+    outline: 0;
+}

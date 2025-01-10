@@ -1,0 +1,50 @@
+.productVip .title{
+    background: var(--red-color);
+    color: #fff;
+    padding:  1.6rem .5rem;
+   
+    writing-mode: vertical-rl;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 700;
+
+    border-radius: 5px;
+    box-sizing: border-box;
+    height: 16rem;
+    margin-left: 2rem;
+    
+
+}
+.main{
+    
+    background-color: #e6e5e5;
+    min-height: calc(100vh - 6rem);
+  padding:  1rem .7rem;
+
+}
+
+.productVip {
+    display: flex;
+    align-items: center;
+    margin: 1.5rem 0;
+    
+}
+.indexItem{
+    border-radius: 10px;
+    overflow: hidden;
+    
+}
+.indexData{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+    grid-gap: 2rem;
+}
+.indexData img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+
+
+}
+

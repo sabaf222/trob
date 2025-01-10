@@ -1,0 +1,198 @@
+.category-filter{
+    display: flex;
+}
+.category-filter__right{
+    flex: 1;
+    background: #fff;
+    height: 100vh;
+    overflow-y: scroll;
+    position: sticky;
+    top: 0;
+   padding:1rem;
+
+
+}
+.category-filter__title{
+    font-size: 1rem;
+    font-weight: 700;
+    color: #000;
+    margin: .5rem 0;
+
+}
+.category-filter__price .category-filter__priceItem{
+    display: grid;
+    grid-template-columns: 1fr auto;
+    grid-gap: .5rem;
+    margin-top: 1rem;
+    align-items: center;
+
+}
+.category-filter__priceItem label{
+    display: grid;
+    grid-template-columns: auto 1fr;
+    border: 1px solid #bbb;
+    border-radius: 5px;
+    padding: .5rem;
+}
+.category-filter__priceItem label span{
+    font-size: .8rem;
+    font-weight: 300;
+    color: #475569;
+
+}
+.category-filter__priceItem label input{
+    text-align: left;
+    font-size: .8rem;
+
+    background: transparent;
+    outline: none;
+    border: none;
+
+}
+.category-filter__price button{
+    margin-top: .5rem;
+    width: 100%;
+    background: var(--red-color);
+    border-radius: 5px;
+    padding: .5rem;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 1rem;
+
+}
+
+.category-filterChecked{
+    padding: 1rem;
+    border-top: 2px dashed #bbb;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 1rem;
+
+}
+.category-filterChecked .item{
+   display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 .5rem;
+    border-radius: .4rem;
+    margin-bottom: 1rem;
+    font-size: .9rem;
+    font-weight: 500;
+    cursor: pointer;
+}
+.item input[type=checkbox].switch {
+    width: 38px;
+    border-radius: 11px;
+}
+.item input[type=checkbox],  .item input[type=radio]{
+
+
+    --active: #275EFE;
+        --active-inner: #fff;
+        --focus: 2px rgba(39, 94, 254, .3);
+        --border: #BBC1E1;
+        --border-hover: #275EFE;
+        --background: #fff;
+        --disabled: #F6F8FF;
+        --disabled-inner: #E1E6F9;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        height: 21px;
+        outline: none;
+        display: inline-block;
+        vertical-align: top;
+        position: relative;
+        margin: 0;
+        cursor: pointer;
+        border: 1px solid var(--bc, var(--border));
+        background: var(--b, var(--background));
+        transition: background .3s, border-color .3s, box-shadow .2s;
+    }
+  
+    .item input[type=checkbox].switch:after {
+        left: 2px;
+        top: 2px;
+        border-radius: 50%;
+        width: 15px;
+        height: 15px;
+        background: var(--ab, var(--border));
+        transform: translate(var(--x, 0));
+    }
+    .item input[type=checkbox]:after,  .item input[type=radio]:after {
+        content: "";
+        display: block;
+        left: 0;
+        top: 0;
+        position: absolute;
+        transition: transform var(--d-t) var(--d-t-e, ease), opacity var(--d-o, .2s);
+    }
+    .item input[type=checkbox]:checked,  .item input[type=radio]:checked {
+        --b: var(--active);
+        --bc: var(--active);
+        --d-o: .3s;
+        --d-t: .6s;
+        --d-t-e: cubic-bezier(.2, .85, .32, 1.2);
+    }
+
+    .item input[type=checkbox].switch:checked {
+        --ab: var(--active-inner);
+        --x: 17px;}
+
+
+
+
+
+
+
+
+
+
+.category-filter__left{
+    flex: 3;
+}
+.category-filter__container{
+    padding: 1rem;
+}
+.category-filter__breadcrumbs{
+    display: flex;
+    justify-content: right;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-bottom:2rem;
+}
+.category-filter__breadcrumbs a{
+    font-size: 1rem;
+    font-weight: 300;
+    color: #475569;
+
+}
+.category-filter__breadcrumbs :first-of-type::after{
+    content: "/";
+    padding: 0 .5rem;
+    color: #475569;
+}
+.catergory-filter__sort{
+    background-color:#fff;
+    border: 1px solid #bbb;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    padding: 1rem;
+    gap: .5rem;
+}
+.catergory-filter__sort ul{
+    display: flex;
+    align-items: center;
+    column-gap: 1.5rem;
+}
+.catergory-filter__sort li{
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: #475569;
+    cursor: pointer;
+}
+ .active{
+    color: var(--red-color)!important;
+    text-shadow: 0 5px 5px rgba(0, 0, 0, .3);
+}

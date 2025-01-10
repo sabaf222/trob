@@ -1,0 +1,19 @@
+
+.allProductsList {
+    border-radius: 10px;
+    margin: auto;
+    background: #fff;
+    box-shadow: 0 0 10px #0000000d;
+    position: relative;
+    padding: 1rem;
+}
+.allProductsList .title{
+font-size: 2rem;
+font-weight: 900;
+color: #475569;
+transition: all 1s ease-in-out;
+text-align: center;
+margin: 2rem 0;
+
+}
+

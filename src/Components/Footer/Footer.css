@@ -1,0 +1,22 @@
+.footer{
+    background-color: #fff;
+}
+.footer-item{
+    padding: 10px ;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-item ul{
+    display: flex;
+    padding: 10px;
+
+}
+.footer-item ul li {
+    margin-left: 1.5rem;
+}
+.footer-item li a{
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: #475569;
+
+}
